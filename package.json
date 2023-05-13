@@ -1,0 +1,22 @@
+{
+  "name": "docker-sadtalker",
+  "version": "1.0.0",
+  "description": "Let the people in an image speak.",
+  "main": "data/split.js",
+  "scripts": {
+    "start": "./docker.sh",
+    "bash": "docker-compose run app bash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulipulichen/docker-sadtalker.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0 license",
+  "bugs": {
+    "url": "https://github.com/pulipulichen/docker-sadtalker/issues"
+  },
+  "homepage": "https://github.com/pulipulichen/docker-sadtalker#readme",
+  "dependencies": {
+  }
+}
